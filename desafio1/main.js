@@ -1,6 +1,6 @@
 let nombreProducto = "papas";
 let precioUnitario = 500;
-let cantidadDeseada = prompt("¿Cuantos kilos de papa quiere comprar?")
+let cantidadDeseada = prompt(`¿Cuantos kilos de ${nombreProducto} quiere comprar?`)
 
 let totalCompra = precioUnitario * cantidadDeseada;
 
